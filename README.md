@@ -1,6 +1,6 @@
 # CMUS themes
 
-A list of themes and color schemes for CMUS, along with basic install instructions.
+A (potentially comprehensive) list of themes and color schemes for CMUS, along with basic install instructions.
 
 1. [Install a theme](#install-a-theme)
 1. [Showcase](#showcase)
