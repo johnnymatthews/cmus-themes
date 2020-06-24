@@ -1,0 +1,40 @@
+# Maintainer:            Mr_Glitch projekt.root@tuta.io
+# Manjaro forum user:    @Mr_Glitch
+# URL:                   https://gitlab.com/ProjektRoot
+
+### colors
+### {{{
+### Menu Tittle
+set color_win_title_bg=36
+set color_win_title_fg=231
+set color_titleline_attr=default
+set color_win_sel_attr=bold
+### Window
+set color_separator=43
+set color_win_bg=default
+set color_win_cur=43
+set color_win_cur_sel_bg=default
+set color_win_cur_sel_fg=36
+### Inactive Menu Items
+set color_win_inactive_cur_sel_bg=default
+set color_win_inactive_cur_sel_fg=30
+set color_win_inactive_sel_bg=23
+set color_win_inactive_sel_fg=255
+### Active/Selected Menu Items
+set color_win_sel_bg=default
+set color_win_sel_fg=36
+set color_win_dir=43
+set color_win_fg=255
+### Artist, Album and Song 
+set color_titleline_bg=43
+set color_titleline_fg=23
+### Song Timeline
+set color_statusline_bg=36
+set color_statusline_fg=231
+### Command Line
+set color_cmdline_bg=default
+set color_cmdline_fg=43
+### Errors and Info
+set color_error=196
+set color_info=221
+### }}}
