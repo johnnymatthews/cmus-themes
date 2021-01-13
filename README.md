@@ -2,29 +2,45 @@
 
 A (potentially comprehensive) list of themes and color schemes for CMUS, along with basic install instructions.
 
-1. [Install a theme](#install-a-theme)
-1. [Showcase](#showcase)
-1. [Licence](#licence)
-
 ## Install a theme
 
-Installing a theme is pretty simple. All you have to do is copy the theme file to your `~/.config/cmus` folder and set `:colorscheme` to the name of the theme in CMUS. As an example, here's how to set CMUS to the _Dracula_ theme:
+Installing a theme is pretty simple. All you have to do is copy the theme file to your `~/.config/cmus` folder and set `:colorscheme` to the name of the theme in CMUS. You can download all the themes in this repo by using the `tar` files in the [Releases section](https://github.com/johnnymatthews/cmus-themes/releases/tag/v1.0.0): 
 
-1. Click `dracula.theme` and select *Raw*.
-1. Copy the URL of that file.
-1. In a terminal, run `wget <THEME URL>`:
+1. Move into your CMUS config folder:
 
-  ```bash
-  wget https://raw.githubusercontent.com/johnnymatthews/cmus-themes/master/data/dracula.theme
-  ```
-  
-1. Open CMUS and run `:colorscheme <THEME NAME>`:
+    ```bash
+    cd ~/.config/cmus
+    ```
 
-  ```bash
-  :colorscheme dracula
-  ```
-  
-1. You're theme should now have changed!
+1. Download the latest `tar` using wget`:
+
+    ```bash
+    wget https://github.com/johnnymatthews/cmus-themes/releases/download/v1.0.0/cmus-themes-v1-0-0.tar.gz
+    ```
+
+1. Decompress the `tar.gz` file:
+
+    ```bash
+    tar xvzf cmus-themes-v1-0-0.tar.gz
+    ```
+
+1. Open CMUS and select a theme:
+
+    ```bash
+    cmus
+    ```
+
+1. Select a theme by pressing `esc`, typing `:colorscheme` and entering the theme name you want to use:
+
+    ```bash
+    :colorscheme dracula
+    ``` 
+
+    You can also set your color scheme by adding `colorscheme dracula` to your CMUS config file:
+
+    ```bash
+    echo "colorscheme dracula" >> ~/.config/cmus/rc
+    ```
 
 ## Licence
 
