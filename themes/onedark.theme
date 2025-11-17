@@ -1,0 +1,24 @@
+### Onedark theme for CMUS (255 color terminal version)
+set color_cmdline_bg=default
+set color_cmdline_fg=220  
+set color_error=167
+set color_info=231  
+set color_separator=032
+set color_statusline_bg=default
+set color_statusline_fg=156
+set color_titleline_bg=032
+set color_titleline_fg=236  
+set color_win_bg=default
+set color_win_cur=156
+set color_win_cur_sel_bg=156
+set color_win_cur_sel_fg=016
+set color_win_dir=032
+set color_win_fg=179
+set color_win_inactive_cur_sel_bg=default
+set color_win_inactive_cur_sel_fg=135
+set color_win_inactive_sel_bg=default
+set color_win_inactive_sel_fg=135
+set color_win_sel_bg=156
+set color_win_sel_fg=236
+set color_win_title_bg=135
+set color_win_title_fg=236
